@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "smtp-client": "^0.4.0"
+  }
+}
