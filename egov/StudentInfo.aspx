@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudentInfo.aspx.cs" Inherits="egov.StudentInfo" %>
 
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Student Info</title>
     <style>
@@ -21,7 +21,7 @@
             background-color: #f2f2f2;
         }
         tr:nth-child(odd) {
-            background-color: papayawhip; /* Light yellow */
+            background-color: papayawhip;
         }
         .table-container {
             margin: 20px;
@@ -32,8 +32,6 @@
 <body>
     <form id="form1" runat="server">
         <div class="table-container">
-           
-            <br />
             <table>
                 <tr>
                     <th>First Name</th>
@@ -68,18 +66,31 @@
                     <td><asp:Label ID="lblEnrollmentDate" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
-                   <th>Semester</th>
+                    <th>Semester</th>
                     <td><asp:Label ID="lblSem" runat="server"></asp:Label></td>
                 </tr>
             </table>
             <br />
-            <asp:HyperLink ID="hlFee" runat="server" NavigateUrl="~/Fees.aspx" OnDataBinding="goToFee">Fees Status</asp:HyperLink>
-&nbsp;&nbsp; |&nbsp;&nbsp;
-            <asp:HyperLink ID="hlAtd" runat="server" NavigateUrl="~/Attendence.aspx" OnDataBinding="goToAttendence">Attendence Status</asp:HyperLink>
-            &nbsp; |&nbsp;&nbsp;
-            <asp:HyperLink ID="hlSessional" runat="server" NavigateUrl="~/Sessional.aspx" OnDataBinding="goToSessional">Sessional Result</asp:HyperLink>
-            <br />
-            <br />
+            
+            <!-- Existing Links -->
+            <asp:HyperLink ID="hlFee" runat="server" NavigateUrl="~/Fees.aspx">Fees Status</asp:HyperLink>
+            &nbsp;&nbsp; |&nbsp;&nbsp;
+            <asp:HyperLink ID="hlAtd" runat="server" NavigateUrl="~/Attendence.aspx">Attendance Status</asp:HyperLink>
+            &nbsp;&nbsp; |&nbsp;&nbsp;
+            <!-- Using LinkButton instead of HyperLink to trigger server-side event -->
+            <asp:LinkButton ID="lbSessional" runat="server" OnClick="lbSessional_Click" Visible="true">Sessional Result</asp:LinkButton>
+            
+            <!-- Panel for dynamically displaying sessional links -->
+            <asp:Panel ID="pnlSessionalLinks" runat="server" Visible="false">
+                <br />
+                <asp:HyperLink ID="hlSessional1" runat="server" Text="Sessional 1" NavigateUrl="~/Sessional.aspx/?sessional=1"></asp:HyperLink>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlSessional2" runat="server" Text="Sessional 2" NavigateUrl="~/Sessional.aspx/?sessional=2"></asp:HyperLink>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlSessional3" runat="server" Text="Sessional 3" NavigateUrl="~/Sessional.aspx/?sessional=3"></asp:HyperLink>
+            </asp:Panel>
+
+            <br /><br />
             <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
         </div>
     </form>

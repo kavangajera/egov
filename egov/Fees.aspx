@@ -7,7 +7,7 @@
     <title>Fees Page</title>
     <style>
         body {
-            background-color: #f0f0f0; /* light grey */
+            background-color: #f0f0f0;
             font-family: Arial, sans-serif;
         }
 
@@ -20,14 +20,29 @@
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         }
 
-        .form-label {
-            font-size: 18px;
-            color: #333; /* dark grey */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
 
-        .form-label-highlight {
-            color: #f0ad4e; /* yellow highlight */
-            font-weight: bold;
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0ad4e;
+            color: white;
+        }
+
+        .form-label {
+            font-size: 18px;
+            color: #333;
         }
 
         .error-message {
@@ -51,12 +66,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Label ID="lblModeVal" CssClass="form-label form-label-highlight" runat="server"></asp:Label>
-            <br />
-            <br />
-            <asp:Label ID="lblMsg" CssClass="error-message" runat="server"></asp:Label>
-        </div>
+        <asp:Table ID="tblFees" runat="server">
+            <asp:TableHeaderRow>
+                <asp:TableHeaderCell>Semester</asp:TableHeaderCell>
+                <asp:TableHeaderCell>Amount</asp:TableHeaderCell>
+                <asp:TableHeaderCell>Mode of Payment</asp:TableHeaderCell>
+            </asp:TableHeaderRow>
+        </asp:Table>
+        <p>
+            &nbsp;</p>
+        <p>
+            <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>
+        </p>
     </form>
 </body>
 </html>

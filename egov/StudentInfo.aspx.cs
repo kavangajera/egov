@@ -75,9 +75,13 @@ namespace egov
             Response.Redirect("Attendence.aspx");
         }
 
-        protected void goToSessional(object sender, EventArgs e)
+        
+
+        protected void lbSessional_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Sessional.aspx");
+            pnlSessionalLinks.Visible = true;
+            lbSessional.Visible = false;
+
         }
     }
 }

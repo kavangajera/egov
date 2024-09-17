@@ -123,13 +123,49 @@ namespace egov
         protected global::System.Web.UI.WebControls.HyperLink hlAtd;
 
         /// <summary>
-        /// hlSessional control.
+        /// lbSessional control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlSessional;
+        protected global::System.Web.UI.WebControls.LinkButton lbSessional;
+
+        /// <summary>
+        /// pnlSessionalLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlSessionalLinks;
+
+        /// <summary>
+        /// hlSessional1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlSessional1;
+
+        /// <summary>
+        /// hlSessional2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlSessional2;
+
+        /// <summary>
+        /// hlSessional3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlSessional3;
 
         /// <summary>
         /// btnLogout control.

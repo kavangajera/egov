@@ -60,18 +60,37 @@ namespace egov
                         }
                     }
                     int n = Sem.Count;
+                    
                     string res = "";
                     for(int i = 0; i < n; i++)
                     {
-                        res += " Semester " + Sem[i].ToString()+"<br>"+ " Amount " + Amount[0].ToString()+"<br>"+" Mode of payment "+ Mode[i].ToString();
-                        res += "<br><br><br>";
-                    }
-                    lblModeVal.Text = res;
+                       
+                            
+                            TableRow row = new TableRow();
 
-                }
+                            TableCell cellSem = new TableCell();
+                            cellSem.Text = "Semester: " + Sem[i].ToString();
+
+                            TableCell cellAmount = new TableCell();
+                            cellAmount.Text = "Amount: " + Amount[0].ToString();
+
+                            TableCell cellMode = new TableCell();
+                            cellMode.Text = "Mode of payment: " + Mode[i].ToString();
+
+                            row.Cells.Add(cellSem);
+                            row.Cells.Add(cellAmount);
+                            row.Cells.Add(cellMode);
+
+                            
+                            tblFees.Rows.Add(row);
+                        }
+                    }
+                      
+
+                
                 else
                 {
-                    lblMsg.Text = "Fees unpaid.";
+                    lblmsg.Text = "Fees unpaid.";
                 }
 
                     
