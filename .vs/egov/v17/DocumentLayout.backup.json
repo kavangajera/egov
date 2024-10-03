@@ -3,10 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\kavan\\source\\repos\\egov\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\studentinfo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\studentinfo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|c:\\users\\kavan\\source\\repos\\egov\\egov\\external.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\external.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|c:\\users\\kavan\\source\\repos\\egov\\egov\\external.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\external.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Course.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.InternalResult.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Student_info.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|c:\\users\\kavan\\source\\repos\\egov\\egov\\sessional.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\sessional.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\studentinfo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\studentinfo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\sessional.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\sessional.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Attendence.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\attendence.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\attendence.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\attendence.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\attendence.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\fees.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\fees.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,11 +66,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "External.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\External.aspx",
+              "RelativeDocumentMoniker": "egov\\External.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\External.aspx",
+              "RelativeToolTip": "egov\\External.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-30T18:56:36.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.Student_info.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Student_info.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Student_info.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-30T10:45:22.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "dbo.InternalResult.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.InternalResult.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.InternalResult.sql",
@@ -29,12 +101,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "dbo.Course.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Course.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Course.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-09-08T09:54:41.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\SignUp.aspx",
+              "RelativeDocumentMoniker": "egov\\SignUp.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\SignUp.aspx",
+              "RelativeToolTip": "egov\\SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-24T06:16:04.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sessional.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Sessional.aspx",
+              "RelativeDocumentMoniker": "egov\\Sessional.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Sessional.aspx",
+              "RelativeToolTip": "egov\\Sessional.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-24T06:07:34.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentInfo.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\StudentInfo.aspx",
+              "RelativeDocumentMoniker": "egov\\StudentInfo.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\StudentInfo.aspx",
+              "RelativeToolTip": "egov\\StudentInfo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-24T05:43:28.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "External.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\External.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\External.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\External.aspx.cs",
+              "RelativeToolTip": "egov\\External.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:57:45.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentInfo.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\StudentInfo.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\StudentInfo.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\StudentInfo.aspx.cs",
+              "RelativeToolTip": "egov\\StudentInfo.aspx.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAQwGsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:44:00.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbo.Attendence.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Attendence.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_KAVAN_SOURCE_REPOS_EGOV_EGOV_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Attendence.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-24T05:24:49.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sessional.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Sessional.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\Sessional.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Sessional.aspx.cs",
+              "RelativeToolTip": "egov\\Sessional.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:59:26.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Login.aspx.cs",
+              "RelativeToolTip": "egov\\Login.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:59:12.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Attendence.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx",
+              "RelativeDocumentMoniker": "egov\\Attendence.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx",
+              "RelativeToolTip": "egov\\Attendence.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-24T05:31:03.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Attendence.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\Attendence.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx.cs",
+              "RelativeToolTip": "egov\\Attendence.aspx.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:24:20.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Fees.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Fees.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\Fees.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Fees.aspx.cs",
+              "RelativeToolTip": "egov\\Fees.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T02:15:53.345Z"
             }
           ]
         }

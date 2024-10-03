@@ -17,7 +17,9 @@ namespace egov
 
             if (!IsPostBack)
             {
+                int semester = int.Parse(Request.QueryString["semester"].ToString());
                 string sessionalNumber = Request.QueryString["sessional"];
+                string branch = Session["branch"].ToString();
                 if (!string.IsNullOrEmpty(sessionalNumber))
                 {
                     string email = Session["UserEmail"].ToString();
@@ -27,31 +29,22 @@ namespace egov
                         con.Open();
 
                         // Get student details (semester and branch)
-                        SqlCommand cmd = new SqlCommand("SELECT semester, branch FROM Student_info WHERE email = @email", con);
-                        cmd.Parameters.AddWithValue("@email", email);
-                        SqlDataReader rdr = cmd.ExecuteReader();
-
-                        int semester = 0;
-                        string branch = null;
-                        if (rdr.Read())
-                        {
-                            semester = int.Parse(rdr["semester"].ToString());
-                            branch = rdr["branch"].ToString();
-                        }
-                        rdr.Close();
-
+                        
+                        
+                        
                         // Display marks for the selected sessional
                          // Adjust based on your sessional number
-                        
+                            
                             SqlCommand cmd2 = new SqlCommand(@"
-                                SELECT c.course_name, ir.marks
+                                SELECT *
                                 FROM InternalResult ir
-                                JOIN Course c ON ir.course_id = c.course_id
-                                JOIN Student_info si ON ir.stu_Id = si.stu_id
-                                WHERE si.branch = @branch AND si.semester = @semester AND ir.sessional_no = @sessionalNo
-                                ORDER BY c.course_name", con);
-
+                                INNER JOIN BranchCourse bc ON ir.course_id = bc.course_id
+                                INNER JOIN Course c ON ir.course_id = c.course_id
+                                WHERE ir.stu_id = @stuId AND ir.sessional_no = @sessionalNo AND bc.semester = @semester AND bc.branch = @branch;
+                                ", con);
+                            
                             cmd2.Parameters.AddWithValue("@branch", branch);
+                            cmd2.Parameters.AddWithValue("@stuId", Session["stu_id"]);
                             cmd2.Parameters.AddWithValue("@semester", semester);
                             cmd2.Parameters.AddWithValue("@sessionalNo", sessionalNumber);
 

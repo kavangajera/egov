@@ -72,6 +72,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Attendence.aspx" />
+    <Content Include="External.aspx" />
     <Content Include="Fees.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Sessional.aspx" />
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="Attendence.aspx.designer.cs">
       <DependentUpon>Attendence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="External.aspx.cs">
+      <DependentUpon>External.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="External.aspx.designer.cs">
+      <DependentUpon>External.aspx</DependentUpon>
     </Compile>
     <Compile Include="Fees.aspx.cs">
       <DependentUpon>Fees.aspx</DependentUpon>
