@@ -1,12 +1,86 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kavan\\source\\repos\\egov\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|c:\\users\\kavan\\source\\repos\\egov\\egov\\attendence.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\attendence.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|C:\\Users\\kavan\\source\\repos\\egov\\egov\\attendence.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{257FBCEE-9EB7-4C37-8C54-C6AEF7061B48}|egov\\egov.csproj|solutionrelative:egov\\attendence.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Attendence.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx",
+              "RelativeDocumentMoniker": "egov\\Attendence.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx",
+              "RelativeToolTip": "egov\\Attendence.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T02:31:27.114Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Attendence.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\Attendence.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\Attendence.aspx.cs",
+              "RelativeToolTip": "egov\\Attendence.aspx.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwE0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:21:48.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "egov\\SignUp.aspx.cs",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\SignUp.aspx.cs",
+              "RelativeToolTip": "egov\\SignUp.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:13:35.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\SignUp.aspx",
+              "RelativeDocumentMoniker": "egov\\SignUp.aspx",
+              "ToolTip": "C:\\Users\\kavan\\source\\repos\\egov\\egov\\SignUp.aspx",
+              "RelativeToolTip": "egov\\SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T04:12:35.809Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
